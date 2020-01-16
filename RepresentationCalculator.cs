@@ -11,7 +11,7 @@ namespace codeName
             string name;
             do
             {
-                Console.WriteLine("Enter your name, please : ");
+                Console.WriteLine("Enter your name : ");
                 name = Console.ReadLine();
 
             } while (!IsWordOk(name));
